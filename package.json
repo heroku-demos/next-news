@@ -2,6 +2,7 @@
   "name": "next-news",
   "license": "MIT",
   "dependencies": {
+    "@mars/heroku-nextjs-build": "^2.0.0",
     "firebase": "^3.7.3",
     "ms": "^1.0.0",
     "next": "^2.0.0",
@@ -13,6 +14,13 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
-  }
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "heroku-nextjs-build"
+  },
+  "engines": {
+    "node": "6.9.x"
+  },
+  "cacheDirectories": [
+    "nextjs/node_modules"
+  ]
 }
