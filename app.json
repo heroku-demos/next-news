@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "next-news",
   "description": "A one-click Heroku deploy of a clone of Hacker News written in Next.js",
   "repository": "https://github.com/heroku-demos/next-news",
   "keywords": [
