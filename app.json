@@ -1,0 +1,12 @@
+{
+  "name": "",
+  "description": "A one-click Heroku deploy of a clone of Hacker News written in Next.js",
+  "repository": "https://github.com/heroku-demos/next-news",
+  "keywords": [
+    "next.js",
+    "hacker news",
+    "universal",
+    "server rendered",
+    "react"
+  ]
+}
